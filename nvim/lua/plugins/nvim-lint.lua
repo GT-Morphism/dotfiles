@@ -1,7 +1,7 @@
 return {
-  "stevearc/conform.nvim",
+  "mfussenegger/nvim-lint",
   opts = {
-    formatters_by_ft = {
+    linters_by_ft = {
       sql = { "sqruff" },
     },
   },

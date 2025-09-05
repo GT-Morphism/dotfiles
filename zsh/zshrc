@@ -38,3 +38,6 @@ esac
 # fnm
 eval "$(fnm env --use-on-cd)"
 # fnm end
+# go binaries installed via `go install`
+export PATH=$PATH:$HOME/go/bin
+# go end

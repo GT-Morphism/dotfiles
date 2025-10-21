@@ -6,6 +6,9 @@ local excluded = {
   "target/",
   "coverage/",
   ".esbuild/",
+  ".svelte-kit/",
+  "**/paraglide/",
+  "**/cache/",
   "pnpm-lock.yaml",
 }
 

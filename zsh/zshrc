@@ -42,5 +42,7 @@ alias e-zsh="nvim ~/.config/zsh/zshrc"
 alias lg="lazygit"
 alias ls="eza --icons=always"
 
+alias n="nvim ."
+
 alias http="restish"
 # alias end

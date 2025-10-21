@@ -10,15 +10,12 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-alias r-zsh="source ~/.config/zsh/zshrc"
-alias e-zsh="nvim ~/.config/zsh/zshrc"
+
 
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# eza (better ls)
-alias ls="eza --icons=always"
-# eza end
+
 
 # zoxide (better cd)
 # set up fzf key bindings and fuzzy completion
@@ -41,3 +38,12 @@ eval "$(fnm env --use-on-cd)"
 # go binaries installed via `go install`
 export PATH=$PATH:$HOME/go/bin
 # go end
+
+# alias
+alias r-zsh="source ~/.config/zsh/zshrc"
+alias e-zsh="nvim ~/.config/zsh/zshrc"
+
+alias ls="eza --icons=always"
+
+alias http="restish"
+# alias end

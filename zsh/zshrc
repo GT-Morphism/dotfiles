@@ -43,6 +43,7 @@ export PATH=$PATH:$HOME/go/bin
 alias r-zsh="source ~/.config/zsh/zshrc"
 alias e-zsh="nvim ~/.config/zsh/zshrc"
 
+alias lg="lazygit"
 alias ls="eza --icons=always"
 
 alias http="restish"

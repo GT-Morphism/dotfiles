@@ -45,5 +45,9 @@ alias ls="eza --icons=always"
 
 alias n="nvim ."
 
+alias pd="pnpm dev"
+alias po="pnpm outdated"
+alias pup="pnpm update -i --latest"
+
 alias r-zsh="source ~/.config/zsh/zshrc"
 # alias end

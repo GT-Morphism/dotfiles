@@ -38,6 +38,8 @@ export PATH=$PATH:$HOME/go/bin
 # alias
 alias e-zsh="nvim ~/.config/zsh/zshrc"
 
+alias fl="fnm list-remote --lts | tail -n 5"
+
 alias http="restish"
 
 alias lg="lazygit"
@@ -46,6 +48,7 @@ alias ls="eza --icons=always"
 alias n="nvim ."
 
 alias pd="pnpm dev"
+alias pns="pnpm self-update"
 alias po="pnpm outdated"
 alias pup="pnpm update -i --latest"
 

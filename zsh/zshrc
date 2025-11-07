@@ -13,6 +13,12 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# brew (for shell completions)
+eval "$(brew shellenv)"
+autoload -Uz compinit
+compinit
+# brew end
+
 # zoxide (better cd)
 # set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)

@@ -41,6 +41,9 @@ eval "$(fnm env --use-on-cd)"
 export PATH=$PATH:$HOME/go/bin
 # go end
 
+# dstask (personal task tracker)
+dstask zsh-completion > $HOMEBREW_PREFIX/share/zsh/site-functions/_dstask
+# dstask end
 
 # exports
 export EDITOR=nvim
@@ -64,4 +67,5 @@ alias po="pnpm outdated"
 alias pup="pnpm update -i --latest"
 
 alias r-zsh="source ~/.config/zsh/zshrc"
+alias t="dstask"
 # alias end

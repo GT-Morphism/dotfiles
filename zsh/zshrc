@@ -41,6 +41,11 @@ eval "$(fnm env --use-on-cd)"
 export PATH=$PATH:$HOME/go/bin
 # go end
 
+
+# exports
+export EDITOR=nvim
+# exports end
+
 # alias
 alias e-zsh="nvim ~/.config/zsh/zshrc"
 

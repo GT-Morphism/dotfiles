@@ -25,17 +25,10 @@ source <(fzf --zsh)
 eval "$(zoxide init zsh)"
 # zoxide end
 
-# pnpm
-export PNPM_HOME="/Users/$USER/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
-# fnm
-eval "$(fnm env --use-on-cd)"
-# fnm end
+# proto
+export PROTO_HOME="$HOME/.proto";
+export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$PATH";
+# proto end
 
 # go binaries installed via `go install`
 export PATH=$PATH:$HOME/go/bin
@@ -51,8 +44,6 @@ export EDITOR=nvim
 
 # alias
 alias e-zsh="nvim ~/.config/zsh/zshrc"
-
-alias fl="fnm list-remote --lts | tail -n 5"
 
 alias http="restish"
 

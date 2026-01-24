@@ -1,0 +1,23 @@
+name = "Hurl"
+type = "cli"
+
+[platform.linux]
+archive-prefix = "hurl-{version}-{arch}-unknown-linux-{libc}"
+checksum-file = "hurl-{version}-{arch}-unknown-linux-{libc}.tar.gz.sha256"
+download-file = "hurl-{version}-{arch}-unknown-linux-{libc}.tar.gz"
+
+[platform.macos]
+archive-prefix = "hurl-{version}-{arch}-apple-darwin"
+checksum-file = "hurl-{version}-{arch}-apple-darwin.tar.gz.sha256"
+download-file = "hurl-{version}-{arch}-apple-darwin.tar.gz"
+
+[install]
+download-url = "https://github.com/Orange-OpenSource/hurl/releases/download/{version}/{download_file}"
+checksum-url = "https://github.com/Orange-OpenSource/hurl/releases/download/{version}/{checksum_file}"
+
+[install.exes.hurl]
+exe-path = "bin/hurl"
+primary = true
+
+[resolve]
+git-url = "https://github.com/Orange-OpenSource/hurl"

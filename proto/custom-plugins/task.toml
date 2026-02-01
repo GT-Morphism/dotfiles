@@ -19,5 +19,8 @@ checksum-url = "https://github.com/go-task/task/releases/download/v{version}/{ch
 exe-path = "bin/task"
 primary = true
 
+[install.arch]
+aarch64 = "arm64"
+
 [resolve]
 git-url = "https://github.com/go-task/task/"

@@ -15,12 +15,12 @@ download-file = "task_darwin_{arch}.tar.gz"
 download-url = "https://github.com/go-task/task/releases/download/v{version}/{download_file}"
 checksum-url = "https://github.com/go-task/task/releases/download/v{version}/{checksum_file}"
 
+[install.arch]
+aarch64 = "arm64"
+
 [install.exes.task]
 exe-path = "bin/task"
 primary = true
-
-[install.arch]
-aarch64 = "arm64"
 
 [resolve]
 git-url = "https://github.com/go-task/task/"

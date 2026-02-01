@@ -19,7 +19,7 @@ checksum-url = "https://github.com/go-task/task/releases/download/v{version}/{ch
 aarch64 = "arm64"
 
 [install.exes.task]
-exe-path = "bin/task"
+exe-path = "task"
 primary = true
 
 [resolve]

@@ -1,0 +1,23 @@
+name = "Task"
+type = "cli"
+
+[platform.linux]
+archive-prefix = "task_linux_{arch}"
+checksum-file = "task_checksums.txt"
+download-file = "task_linux_{arch}.tar.gz"
+
+[platform.macos]
+archive-prefix = "task_darwin_{arch}"
+checksum-file = "task_checksums.txt"
+download-file = "task_darwin_{arch}.tar.gz"
+
+[install]
+download-url = "https://github.com/go-task/task/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/go-task/task/releases/download/v{version}/{checksum_file}"
+
+[install.exes.task]
+exe-path = "bin/task"
+primary = true
+
+[resolve]
+git-url = "https://github.com/go-task/task/"

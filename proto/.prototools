@@ -8,3 +8,7 @@ proto = "0.55.2"
 [plugins.tools]
 hurl = "https://raw.githubusercontent.com/GT-Morphism/dotfiles/refs/heads/main/proto/custom-plugins/hurl.toml"
 task = "https://raw.githubusercontent.com/GT-Morphism/dotfiles/refs/heads/main/proto/custom-plugins/task.toml"
+
+[settings]
+auto-clean = true
+telemetry = false

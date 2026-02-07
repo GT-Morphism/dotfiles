@@ -3,6 +3,7 @@ pnpm = "10.28.2"
 go = "1.25.6"
 hurl = "7.1.0"
 task = "3.48.0"
+proto = "0.55.2"
 
 [plugins.tools]
 hurl = "https://raw.githubusercontent.com/GT-Morphism/dotfiles/refs/heads/main/proto/custom-plugins/hurl.toml"

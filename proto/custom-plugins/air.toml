@@ -13,6 +13,9 @@ download-file = "air_{version}_darwin_{arch}.tar.gz"
 checksum-url = "https://github.com/air-verse/air/releases/download/v{version}/{checksum_file}"
 download-url = "https://github.com/air-verse/air/releases/download/v{version}/{download_file}"
 
+[install.arch]
+aarch64 = "arm64"
+
 [install.exes.air]
 exe-path = "air"
 primary = true

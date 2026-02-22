@@ -3,7 +3,7 @@ pnpm = "10.29.3"
 go = "1.26.0"
 hurl = "7.1.0"
 task = "3.48.0"
-proto = "0.55.2"
+proto = "0.55.3"
 air = "1.64.5"
 
 [plugins.tools]

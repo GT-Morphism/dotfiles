@@ -1,0 +1,26 @@
+name = "lazygit"
+type = "cli"
+
+[platform.linux]
+archive-prefix = "lazygit_{version}_linux_{arch}"
+checksum-file = "checksums.txt"
+download-file = "lazygit_{version}_linux_{arch}.tar.gz"
+
+[platform.macos]
+archive-prefix = "lazygit_{version}_darwin_{arch}"
+checksum-file = "checksums.txt"
+download-file = "lazygit_{version}_darwin_{arch}.tar.gz"
+
+[install]
+download-url = "https://github.com/jesseduffield/lazygit/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/jesseduffield/lazygit/releases/download/v{version}/{checksum_file}"
+
+[install.arch]
+aarch64 = "arm64"
+
+[install.exes.task]
+exe-path = "lazygit"
+primary = true
+
+[resolve]
+git-url = "https://github.com/jesseduffield/lazygit/"

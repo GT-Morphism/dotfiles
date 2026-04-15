@@ -18,7 +18,7 @@ checksum-url = "https://github.com/jesseduffield/lazygit/releases/download/v{ver
 [install.arch]
 aarch64 = "arm64"
 
-[install.exes.task]
+[install.exes.lazygit]
 exe-path = "lazygit"
 primary = true
 

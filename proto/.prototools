@@ -3,7 +3,7 @@ npm = "11.12.0"
 pnpm = "10.33.0"
 go = "1.26.1"
 task = "3.49.1"
-proto = "0.55.4"
+proto = "0.56.2"
 air = "1.64.5"
 
 [plugins.tools]

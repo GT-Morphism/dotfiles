@@ -6,12 +6,14 @@ task = "3.49.1"
 proto = "0.56.2"
 air = "1.64.5"
 lazygit = "0.61.1"
+nvim = "0.12.1"
 
 [plugins.tools]
 air = "https://raw.githubusercontent.com/GT-Morphism/dotfiles/refs/heads/main/proto/custom-plugins/air.toml"
 hurl = "https://raw.githubusercontent.com/GT-Morphism/dotfiles/refs/heads/main/proto/custom-plugins/hurl.toml"
 task = "https://raw.githubusercontent.com/GT-Morphism/dotfiles/refs/heads/main/proto/custom-plugins/task.toml"
 lazygit = "https://raw.githubusercontent.com/GT-Morphism/dotfiles/refs/heads/main/proto/custom-plugins/lazygit.toml"
+nvim = "https://raw.githubusercontent.com/GT-Morphism/dotfiles/refs/heads/main/proto/custom-plugins/nvim.toml"
 
 [settings]
 auto-clean = true

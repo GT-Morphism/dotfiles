@@ -1,9 +1,9 @@
-node = "24.14.1"
+node = "24.15.0"
 npm = "11.12.1"
 pnpm = "10.33.0"
 go = "1.26.2"
 task = "3.50.0"
-proto = "0.56.2"
+proto = "0.56.4"
 air = "1.65.1"
 
 [plugins.tools]

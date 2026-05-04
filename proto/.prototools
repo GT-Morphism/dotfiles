@@ -5,6 +5,7 @@ go = "1.26.2"
 task = "3.50.0"
 proto = "0.56.4"
 air = "1.65.1"
+moon = "2.2.3"
 
 [plugins.tools]
 air = "https://raw.githubusercontent.com/GT-Morphism/dotfiles/refs/heads/main/proto/custom-plugins/air.toml"
